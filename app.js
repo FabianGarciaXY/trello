@@ -1,3 +1,4 @@
+require('dotenv').config()
 const Trello = require("./main.js");
 
 if(!process.env.KEY && !process.env.TOKEN) {
